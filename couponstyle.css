@@ -1,0 +1,200 @@
+
+:root {
+    --main-color: rgb(86,136,216);
+    --secondary-color: rgb(138,75,211)
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body > * {
+    font-family: "Proxima Nova";
+}
+#backgroundimg {
+    height: 100%;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='3000' height='1600' preserveAspectRatio='none' viewBox='0 0 3000 1600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1349%26quot%3b)' fill='none'%3e%3crect width='3000' height='1600' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M378.295%2c1823.536C492.073%2c1831.211%2c609.516%2c1784.722%2c666.237%2c1685.792C722.718%2c1587.28%2c696.754%2c1466.798%2c638.825%2c1369.131C582.246%2c1273.74%2c489.126%2c1196.185%2c378.295%2c1200.329C272.765%2c1204.275%2c197.081%2c1293.173%2c149.459%2c1387.43C106.994%2c1471.481%2c106.841%2c1567.625%2c150.596%2c1651.011C198.019%2c1741.388%2c276.463%2c1816.667%2c378.295%2c1823.536' fill='rgba(138%2c 75%2c 211%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M2099.528%2c1537.706C2205.718%2c1545.381%2c2308.488%2c1487.717%2c2361.285%2c1395.263C2413.683%2c1303.507%2c2406.657%2c1188.693%2c2349.634%2c1099.738C2296.734%2c1017.215%2c2197.551%2c986.958%2c2099.528%2c986.927C2001.438%2c986.896%2c1895.96%2c1013.381%2c1849.145%2c1099.578C1803.752%2c1183.156%2c1848.826%2c1279.058%2c1896.017%2c1361.634C1943.72%2c1445.107%2c2003.636%2c1530.775%2c2099.528%2c1537.706' fill='rgba(138%2c 75%2c 211%2c 1)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1603.448%2c527.462C1721.455%2c522.519%2c1837.671%2c487.388%2c1903.932%2c389.616C1979.382%2c278.285%2c2019.423%2c131.237%2c1950.062%2c16.014C1882.135%2c-96.826%2c1735.042%2c-115.027%2c1603.448%2c-109.545C1483.333%2c-104.541%2c1369.726%2c-57.375%2c1303.486%2c42.949C1229.309%2c155.294%2c1185.089%2c302.295%2c1255.953%2c416.758C1324.539%2c527.542%2c1473.266%2c532.915%2c1603.448%2c527.462' fill='rgba(138%2c 75%2c 211%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M3151.844%2c802.818C3307.832%2c794.672%2c3444.211%2c701.887%2c3518.319%2c564.385C3588.683%2c433.831%2c3581.598%2c275.87%2c3503.953%2c149.51C3429.857%2c28.927%2c3293.368%2c-33.225%2c3151.844%2c-32.014C3012.568%2c-30.822%2c2888.979%2c40.711%2c2810.023%2c155.45C2716.567%2c291.259%2c2635.506%2c460.684%2c2712.482%2c606.467C2792.761%2c758.505%2c2980.147%2c811.784%2c3151.844%2c802.818' fill='rgba(138%2c 75%2c 211%2c 1)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1737.823%2c933.378C1782.275%2c930.836%2c1815.997%2c898%2c1838.068%2c859.33C1859.904%2c821.071%2c1870.183%2c775.836%2c1850.125%2c736.616C1828.309%2c693.96%2c1785.694%2c661.355%2c1737.823%2c663.321C1692.399%2c665.187%2c1663.418%2c706.002%2c1640.438%2c745.228C1617.097%2c785.07%2c1594.313%2c831.047%2c1615.539%2c872.055C1638.005%2c915.459%2c1689.029%2c936.168%2c1737.823%2c933.378' fill='rgba(138%2c 75%2c 211%2c 1)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1644.14%2c1804.633C1775.319%2c1802.475%2c1900.04%2c1739.111%2c1964.27%2c1624.712C2027.268%2c1512.508%2c2012.225%2c1375.953%2c1947.156%2c1264.937C1882.885%2c1155.281%2c1771.239%2c1077.574%2c1644.14%2c1078.524C1518.53%2c1079.463%2c1414.162%2c1162.097%2c1348.871%2c1269.41C1280.399%2c1381.952%2c1241.601%2c1520.204%2c1305.235%2c1635.551C1370.596%2c1754.029%2c1508.847%2c1806.858%2c1644.14%2c1804.633' fill='rgba(138%2c 75%2c 211%2c 1)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1349'%3e%3crect width='3000' height='1600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    filter: blur(3px);
+}
+#input-element {
+    background-color: #e9e9e9;
+    box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.5);
+    transition: all 0.2s;
+    position: relative;
+    background-image: linear-gradient();
+    z-index: 1;
+    background: linear-gradient(180deg, rgb(160, 160, 160) 0%, #e9e9e9 0%);
+    border-radius: 15px;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#input-element img {
+    padding: 20px;
+    margin-bottom: 22px;
+    background-color: #7663d5;
+    border-radius: 15px;
+}
+#input-element::before {
+        position: absolute;
+        border-radius: 15px;
+        box-shadow: 1px 1px 1px 1px;
+        box-shadow: 1px 1px 3px 1px rgba(34, 60, 80, 0.25);
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(
+            to left,
+            var(--main-color),
+            var(--secondary-color)
+        );
+        z-index: -1;
+        transition: opacity 0.5s linear;
+        opacity: 0;
+        
+    }
+#maindiv  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    
+    
+}
+
+#formCont {
+    position: relative;
+    /* this is important! form must have a position: relative; or else the effect will break! */
+}
+#otherForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#result-div {
+    text-align: center;
+}
+#input-element button {
+    width: 250px;
+    height: 55px;
+    background-color: white;
+    color: rgba(138,75,211,1);
+    border-radius: 15px;
+    border: 0px solid;
+    outline: none;
+    font-size: 20px;
+    font-family: "Proxima Nova";
+    margin: 10px;
+
+
+}
+
+#input-element button:hover {
+    filter: brightness(0.8);
+}
+#input-element input {
+    border-radius: 10px;
+    border: 0px solid black;
+    height: 60px;
+    width: calc(100%);
+    font-size: 20px;
+    margin-bottom: 32px;
+    resize: none;
+    font-family: "Proxima Nova";
+    transition: all 1s;
+    overflow-y: hidden;
+}
+#coupon_id:focus {
+    border: 0px solid black;
+    outline: none;
+
+}
+#coupon_id + label {
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    transition: 0.2s all;
+    font-size: large;
+    color: rgba(138,75,211,1);
+    font-weight: 500;
+}
+#coupon_id:focus + label {
+    font-size: smaller;
+    top: -20px;
+    transition: 0.2s all;
+    
+
+}
+
+#coupon_id:not(:placeholder-shown) + label {
+    font-size: smaller;
+    top: -20px;
+    transition: 0.2s all;
+    
+}
+
+#coupon_id + label.has-text {
+    font-size: smaller;
+    top: -20px;
+    transition: 0.2s all;
+}
+
+
+label {
+    color: black;
+    font-family: "Proxima Nova";
+}
+h3 {
+    color: #828282;
+}
+@media only screen and (max-width:415px) {
+    h3 {
+        color: white;
+    }
+    #input-element {
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        border-radius: 0px;
+        box-shadow: 0px 0px 5px 0px rgba(34, 60, 80, 0.5);
+        transition: all 0.2s;
+        flex-direction: column;
+    }
+    #input-element::before {
+        position: absolute;
+        border-radius: 0px;
+        box-shadow: 1px 1px 1px 1px;
+        box-shadow: 1px 1px 3px 1px rgba(34, 60, 80, 0.25);
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(
+            to left,
+            var(--main-color),
+            var(--secondary-color)
+        );
+        z-index: -1;
+        transition: opacity 0.5s linear;
+        opacity: 1;
+    }
+    
+    
+
+}

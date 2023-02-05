@@ -109,6 +109,12 @@ body > * {
 #input-element button:hover {
     filter: brightness(0.8);
 }
+#input-element button:disabled {
+    filter: brightness(0.8);
+    color: red;
+    cursor: not-allowed;
+}
+#input-element button:disabled:hover
 #input-element input {
     border-radius: 10px;
     border: 0px solid black;

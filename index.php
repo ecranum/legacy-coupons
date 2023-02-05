@@ -26,7 +26,7 @@
         <p id="date"></p>
         </div>
         <div id="output_div"></div>
-        <button id="delete-button" style="display:none" disabled>Использовать</button>
+        <button id="delete-button" style="" disabled>Купон не найден</button>
 
     </div>
     </div>
@@ -54,7 +54,9 @@ $(document).ready(function(){
                 $("#user-name").html(user_name + " ")
                 $("#date").html(date + " ")
                 $("#status-img").attr("src","valid.png")
-                $('#delete-button').show();
+                $('#delete-button').removeAttr("disabled");
+                $('#delete-button').text("Забрать");
+
             }
         }
     });

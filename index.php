@@ -19,14 +19,14 @@
         <div id="result-div">
         <br>
         <h3>Информация о купоне:</h3>
-        <div id="coupon-info"></div>
+        <p id="coupon-info"></p>
         <h3>Принадлежит:</h3>
-        <div id="user-name"></div>
+        <p id="user-name"></p>
         <h3>Дата выдачи:</h3>
-        <div id="date"></div>
+        <p id="date"></p>
         </div>
         <div id="output_div"></div>
-        <button id="delete-button" style="display:none">Использовать</button>
+        <button id="delete-button" style="display:none" disabled>Использовать</button>
 
     </div>
     </div>

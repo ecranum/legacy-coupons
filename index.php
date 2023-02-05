@@ -73,6 +73,7 @@ $(document).ready(function(){
                 $("#output_div").html("Купон использован!");
                 $('#delete-button').text("Купон использован");
                 $("#delete-button").prop("disabled", true);
+                $("#status-img").attr("src","invalid.png")
 
 
 

@@ -26,7 +26,7 @@
         <p id="date"></p>
         </div>
         <div id="output_div"></div>
-        <button id="delete-button" style="" disabled>Купон не найден</button>
+        <button id="delete-button" disabled>Купон не найден</button>
 
     </div>
     </div>
@@ -70,7 +70,12 @@ $(document).ready(function(){
             success: function(sus){
                 // Show success message
                 console.log(sus)
-                $("#output_div").html("Coupon successfully deleted!");
+                $("#output_div").html("Купон использован!");
+                $('#delete-button').text("Купон использован");
+                $("#delete-button").prop("disabled", true);
+
+
+
             }
         });
     });
